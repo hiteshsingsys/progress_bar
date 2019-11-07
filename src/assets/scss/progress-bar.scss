@@ -1,0 +1,26 @@
+.progress-bar-wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	background: #e2e2e2;
+	.progress-bar {
+		height: 100%;
+		background-color: #9fb8f1;
+		&.completed {
+			background-color: #45d63c;
+			color: #fff;
+		}
+		&.over {
+			background-color: #ef3c3c;
+			color: #fff;
+		}
+		.progress-bar-text {
+			position: absolute;
+			left: 0;
+	    	right: 0;
+	    	width: 34px;
+    		margin: auto;
+		}
+	}
+	
+}

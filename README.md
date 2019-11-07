@@ -1,8 +1,14 @@
 # progress_bar
 
 ## Project setup
+
+### Clone project
 ```
-yarn install
+git clone https://github.com/hiteshsingsys/progress_bar.git
+```
+### install dependencies
+```
+cd progress_bar && yarn install
 ```
 
 ### Compiles and hot-reloads for development
@@ -25,10 +31,6 @@ yarn run test
 yarn run lint
 ```
 
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
 
 ### Run your unit tests
 ```
