@@ -78,7 +78,6 @@ export default {
             this.fetching = false;
         } 
         catch(err) {
-            console.log('Err', err);
             this.fetching = false;
         }
 
