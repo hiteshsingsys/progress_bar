@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-      <master />    
+    <master />
   </div>
 </template>
 <script>
-  import master from './layouts/master'
-  export default {
-    name: 'app',
-    components: { master }
-  }
+import master from "./layouts/master";
+export default {
+  name: "app",
+  components: { master }
+};
 </script>

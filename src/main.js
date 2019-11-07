@@ -6,12 +6,12 @@ import './registerServiceWorker'
 /**
  * Import plugin which will use across the project
  */
- import './plugins'
+import './plugins'
 
 /**
  * Import Style Sheet
  */
- import './assets/scss/index.scss'
+import './assets/scss/index.scss'
 
 Vue.config.productionTip = process.env.NODE_ENV !== 'production'
 
